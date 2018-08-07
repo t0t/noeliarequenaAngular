@@ -10,6 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Deploy to gh-pages with angular-cli-ghpages
 
 Run `$ ngh --message="First deploy"`
+
 Run `$ ngh --branch=production`
 
 ## Development server
