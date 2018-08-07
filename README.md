@@ -1,9 +1,12 @@
 # Noeliarequena
 
 ### ToDo
+- [ ] Crear loaders para home y fotos
 - [ ] Hacer listado trabajos responsive
-- [ ] Actualizar paquetes de package-lock.json
+- [ ] Actualizar paquetes sospechosos de package-lock.json
 - [x] Añadir Add This Social Sharing
+- [x] Añadir Formspree
+- [ ] Configurar Formspree
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
