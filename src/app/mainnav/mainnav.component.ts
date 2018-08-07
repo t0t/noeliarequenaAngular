@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mainnav.component.scss']
 })
 export class MainnavComponent implements OnInit {
+  
+  public isCollapsed: boolean = false;
+  // public closeButton = "x";
 
   constructor() { }
+
+  toggleCollapse() {
+    this.isCollapsed = !this.isCollapsed;
+  }
 
   ngOnInit() {
   }
