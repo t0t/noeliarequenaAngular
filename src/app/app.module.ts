@@ -13,6 +13,9 @@ import { ContactoComponent } from './contacto/contacto.component';
 
 import { WorksComponent } from './works/works.component';
 
+// Social
+
+
 @NgModule({
   declarations: [
     AppComponent,

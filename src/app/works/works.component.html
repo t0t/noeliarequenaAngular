@@ -7,6 +7,12 @@
   </li>
 </ul>
 
-<div *ngIf="selectedWork" class="ilustrations-container">
+<div *ngIf="selectedWork; else initImg" class="ilustrations-container">
   <img src="{{selectedWork.image_url}}" alt="{{selectedWork.name}}" title="{{selectedWork.id}}">
 </div>
+
+<ng-template #initImg>
+  <div class="ilustrations-container">
+    <img src="./assets/ilustraciones/483.jpg" alt="">
+  </div>
+</ng-template>
