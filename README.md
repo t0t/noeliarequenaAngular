@@ -23,7 +23,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build --prod --output-path dist --base-href "https://t0t.github.io/noeliarequena"`
+Run `ng build --prod --output-path dist --base-href "https://t0t.github.io/noeliarequena/"`
 
 ## Running unit tests
 
