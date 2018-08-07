@@ -1,0 +1,14 @@
+.thumbnails-container {
+    @media screen and (max-width: 500px) {
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+}
+.ilustrations-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}

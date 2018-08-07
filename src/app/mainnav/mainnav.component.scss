@@ -1,0 +1,11 @@
+@import '../../styles';
+
+.MainNav {
+    position: fixed;
+    padding: $spacing_base;
+    right: 0;
+    li {
+        list-style: none;
+        padding-bottom: $spacing_base/2;
+    }
+}

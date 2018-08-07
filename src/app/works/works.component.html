@@ -1,0 +1,12 @@
+<ul class="thumbnails-container">
+  <li *ngFor="let work of works"
+    [class.selected]="work === selectedWork"
+    (click)="onSelect(work)">
+      
+      <img src="{{work.thumbnail_url}}" alt="{{work.name}}" title="{{work.name}}">
+  </li>
+</ul>
+
+<div *ngIf="selectedWork" class="ilustrations-container">
+  <img src="{{selectedWork.image_url}}" alt="{{selectedWork.name}}" title="{{selectedWork.id}}">
+</div>

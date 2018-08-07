@@ -1,0 +1,17 @@
+@import './sass/meyer-reset';
+@import './sass/variables';
+
+// Variables
+$spacing_base: 25px;
+
+
+body {
+    font-family: Lato, sans-serif;
+}
+h1 {
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
